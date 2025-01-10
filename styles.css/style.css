@@ -1,0 +1,104 @@
+.open-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body {
+    font-family: 'Fira Sans', Arial, sans-serif;
+    margin-left: 110px;
+    margin-right: 110px;
+    background-color: white;
+    padding: 0px;
+    color: #080101;
+    gap: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 28px 14px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 80px;
+    background-color: rgb(191, 228, 207);
+    border-radius: 24px;
+    border-style: groove;
+    height: 330px;
+    opacity: 100%;
+}
+
+.content {
+    padding: 20px;
+    margin: 20px;
+    line-height: normal;
+}
+
+.content h3 {
+    height: 29px;
+    width: 622px;
+    font-size: 24px;
+    color: rgb(119, 112, 112);
+}
+
+.content h1 {
+    font-size: 56px;
+    font-weight: bold;
+    height: 201px;
+    width: 612px;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: medium;
+    font-family: 'Fira Sans', Arial, sans-serif;
+    padding: 5px;
+    width: 270px;
+    height: 56px;
+    background-color: rgb(2, 76, 2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.opt {
+    font-size: 32px;
+    font-weight: bold;
+    width: 252px;
+    height: 52px;
+}
+
+.opt2 {
+    background-color: white;
+    color: rgb(29, 138, 29);
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 30px px;
+    border: 1px solid rgb(29, 138, 29);
+    width: 116px;
+    height: 52px;
+    font-weight: bolder;
+    font-family: 'Fira Sans', Arial, sans-serif;
+}
+
+.opt2:hover {
+    color: rgb(29, 138, 29);
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
