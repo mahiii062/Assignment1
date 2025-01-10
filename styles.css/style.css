@@ -104,6 +104,35 @@ header {
     border-radius: 10px;
 }
 
+/* Pillars Part */
+.de {
+    margin-left: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+
+.tit {
+    margin-left: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
+.dui {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.sub {
+    flex: 1;
+    border-radius: 16px;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgb(245, 243, 243);
+}
+
 /* Boxes section */
 .sec {
     text-align: left;
