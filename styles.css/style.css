@@ -103,3 +103,119 @@ header {
     height: auto;
     border-radius: 10px;
 }
+
+/* Boxes section */
+.sec {
+    text-align: left;
+}
+
+.mainTitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.boxbtn {
+    cursor: pointer;
+    margin-left: 32px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    width: 122px;
+    height: 41px;
+    text-align: center;
+    font-family: 'Fira Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.boxbtn:hover {
+    color: black;
+}
+
+.box {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.title {
+    margin-left: 32px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boxes-des {
+    margin-left: 32px;
+}
+
+.blue {
+    border-radius: 16px;
+    background-color: #8fb0ea;
+}
+
+.green {
+    border-radius: 16px;
+    background-color: #a4e4c7;
+}
+
+.yellow {
+    border-radius: 16px;
+    background-color: #e6c986;
+}
+
+.blu {
+    background-color: #5490f5;
+}
+
+.gre {
+    background-color: #09a15c;
+}
+
+.yel {
+    background-color: #ffc239;
+}
+
+.quote {
+    background-color: rgb(244, 244, 244);
+    position: relative;
+    text-align: left;
+    border-radius: 16px;
+}
+
+.symbol {
+    position: absolute;
+}
+
+.des {
+    color: #0E0E0E;
+    opacity: 70%;
+}
+
+.text {
+    padding-top: 24px;
+    opacity: 70%;
+
+}
+
+.dhuru {
+    color: #0E0E0E;
+    opacity: 60%;
+}
+
+.last {
+    margin-bottom: 2px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
+.pic {
+    margin-left: 32px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.b {
+    flex: 1;
+    border-radius: 16px;
+    flex-direction: column;
+    text-align: left;
+}
