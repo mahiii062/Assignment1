@@ -329,3 +329,81 @@ header {
 .dj {
     margin-left: 32px;
 }
+
+/* Donate Part */
+.pain {
+    margin-top: 2px;
+    text-align: center;
+    padding: 40px 40px;
+    border-radius: 16px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #0e0e0e;
+    opacity: 70%;
+}
+
+.optns {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 56px;
+}
+
+.card {
+    flex-direction: row;
+    padding: 40px 50px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(245, 243, 243);
+    opacity: 70%
+}
+
+.card:hover {
+    border-color: #33d138;
+}
+
+.highlight {
+    background-color: #C6E4D6;
+}
+
+.input {
+    background-color: whitesmoke;
+    width: 90%;
+    padding: 10px;
+    border: 1px white #ddd;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+}
+
+.buttonn {
+    text-align: center;
+}
+
+.buttn {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #006a50;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400px;
+    cursor: pointer;
+}
+
+.buttn:hover {
+    background-color: #081008;
+}
