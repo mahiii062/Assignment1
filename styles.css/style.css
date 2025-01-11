@@ -407,3 +407,63 @@ p {
 .buttn:hover {
     background-color: #081008;
 }
+
+
+/* Final Steps */
+.news-container {
+    background-color: #c1eac5;
+    padding: 30px 20px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #0e0e0e;
+    opacity: 70%;
+}
+
+.combined-input {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto 10px auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.grohon {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+.sub-button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #006d42;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+.sub-button:hover {
+    background-color: #0b1712;
+}
+
+.note {
+    font-size: 16px;
+    color: #0e0e0e;
+    opacity: 70%;
+}
