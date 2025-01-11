@@ -1,3 +1,9 @@
+/**
+Mahi A Rashed Mashfik
+Web Development 2025
+  11 January 2025
+*/
+
 .open-sans-normal {
     font-family: "Fira Sans", serif;
     font-optical-sizing: auto;
@@ -466,4 +472,22 @@ p {
     font-size: 16px;
     color: #0e0e0e;
     opacity: 70%;
+}
+
+/* footer part */
+.hudai {
+    text-align: center;
+}
+
+.lasttt {
+    margin-top: 32px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.head {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 32px;
 }
